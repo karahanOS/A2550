@@ -55,8 +55,8 @@ print(radius_error_list)
 "log" statement makes our scale logarithmic
 .show prints our plot 
 """
-plt.errorbar(radius_list, sur_bri_list, xerr=radius_error_list, yerr=sur_bri_error_list, fmt=".", ms=0.1)
-plt.xscale("log")
-plt.yscale("log")
-plt.show()
+#plt.errorbar(radius_list, sur_bri_list, xerr=radius_error_list, yerr=sur_bri_error_list, fmt=".", ms=0.1)
+#plt.xscale("log")
+#plt.yscale("log")
+#plt.show()
 
